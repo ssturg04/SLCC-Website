@@ -1,0 +1,35 @@
+body {
+    background-color: #ebe6e4;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box {
+    border: 5px solid black;
+    padding: 2.5%;
+    margin: 2.5%;
+    background-color: blueviolet;
+    font-size: 24px;
+    border-collapse: separate;
+    border-inline: solid black;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+.table {
+    border: 5px solid black;
+}
+
+.navbar {
+    font-size: larger;
+}
+
+.footer {
+    padding: 1em;
+}
+.navbar-color{
+    background-color: lawngreen;
+}
