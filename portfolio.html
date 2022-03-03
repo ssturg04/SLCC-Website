@@ -13,55 +13,48 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-color">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><!--Navbar--></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <nav>
+    <!--<nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html">Contact</a>--> 
 
 
     </nav>
 
-    <div>
+    <div class="sticky-top">
         <h1 style="text-align: center;"> My Portfolio</h1>
 
 
     </div>
     <p style="text-align:center">Coming Soon!</p>
 
-    <table class="table sticky">
+    <!-- <table class="table sticky">
         <caption>My Projects</caption>
         <tr class="border">
             <th class="border">Project</th>
@@ -82,9 +75,39 @@
             <td class="border">TBD</td>
 
         </tr>
-        </tr>
+        </tr>-->
 
     </table>
+
+    <div class="container">
+      <h2>My Projects</h2>       
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Date</th>
+      
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Website 1</td>
+            <td>1-1-11</td>
+            
+          </tr>
+          <tr>
+            <td>Website 2</td>
+            <td>2-2-22</td>
+           
+          </tr>
+          <tr>
+            <td>Website 3</td>
+            <td>3-3-33</td>
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <ol>
         <div class="container">
@@ -111,19 +134,19 @@
 
 <article>
     <section>
-        <p>
+        <p class="display-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in diam sit amet erat consectetur
             molestie
             in at justo. <span class="display">Suspendisse</span> efficitur quam tortor, sed placerat massa vestibulum a. Aliquam convallis pharetra
             enim, vitae porta neque consectetur sed. Quisque tellus elit, commodo ut lobortis at, faucibus eu tortor.
         </p>
-        <p>
+        <p class="display-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in diam sit amet erat consectetur
             molestie
             in at justo. Suspendisse efficitur quam tortor, sed placerat massa vestibulum a. Aliquam convallis pharetra
             enim, vitae porta neque consectetur sed. Quisque tellus elit, commodo ut lobortis at, faucibus eu tortor.
         </p>
-        <p>
+        <p class="sticky-top">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in diam sit amet erat consectetur
             molestie
             in at justo. Suspendisse efficitur quam tortor, sed placerat massa vestibulum a. Aliquam convallis pharetra
@@ -163,6 +186,9 @@
         </p>
     </section>
 </article>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
